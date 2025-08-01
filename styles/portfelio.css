@@ -23,6 +23,7 @@
 }
 .secondary-bg{
    background-color: #FFF8F3;
+  
    
 }
 /* header */
@@ -190,7 +191,33 @@ main section{
     font-size: 16px;
     font-weight: 300;
     color: #757575;
-    justify-content: space-between;
-     
-    
+}
+/* footer */
+.footer{
+    margin-top: 133px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+   
+}
+.footer-column{
+    width: 50%;
+}
+.context{
+    font-weight: bold;
+    font-size: 35px;
+}
+.context-description{
+    max-width: 562px;
+}
+.form{
+    width:461px ;
+    height:64px ; 
+    margin-bottom: 24px; 
+    border: none;
+}
+
+.textarea{
+    width: 461px;
+    height: 180px;
 }
